@@ -3,6 +3,6 @@ require_relative "./lib/cli.rb"
 require_relative "./lib/film.rb"
 
 require 'pry' 
-require 'met/http' 
+require 'net/http' 
 require 'json'
-require 'HTTParty' 
+# require 'HTTParty' 
