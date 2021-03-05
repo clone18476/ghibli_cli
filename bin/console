@@ -1,7 +1,9 @@
 #!/usr/bin/env ruby
 
+# this, the console file, would be considered the executable file 
+
 require_relative "../environment.rb"
 
-puts "hi"
-
-# this is the executable file 
+cli_instance = CLI.new
+cli_instance.start  
+# cli.new.start can replace the above two lines, that works just fine
