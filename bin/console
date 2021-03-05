@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-# this, the console file, would be considered the executable file 
+# this console file is the executable file 
 
 require_relative "../environment.rb"
 
